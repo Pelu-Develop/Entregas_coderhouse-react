@@ -1,10 +1,12 @@
 import "./App.css";
-import Nav from "./Components/NavBar";
+import NavBar from "./Components/NavBar";
+import Container from "./Components/ItemListContainer";
 
 function App() {
   return (
     <div className="App">
-      <Nav quantidade="4" />
+      <NavBar quantidade="4" />
+      <Container />
     </div>
   );
 }
