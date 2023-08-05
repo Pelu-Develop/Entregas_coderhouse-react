@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+}
+
+.card a {
+  font-size: 30px;
+  padding: 5px;
+}
+
+.card span {
+  font-size: 20px;
+  justify-self: center;
+}
