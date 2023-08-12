@@ -5,7 +5,6 @@ function ItemCount({ className }) {
 
   return (
     <>
-      Camisa da Nike
       <br></br>
       <button className={className}>
         <a onClick={() => setQuantidade(quantidade - 1)}>-</a>
