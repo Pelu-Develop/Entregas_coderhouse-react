@@ -1,4 +1,3 @@
-import ItemCount from "./ItemCount";
 import styles from "./ItemList.module.css";
 
 function itemList({ item }) {
@@ -10,7 +9,6 @@ function itemList({ item }) {
           <img src={produtos.img} />
           <h3>{produtos.descrição}</h3>
           <h2>{produtos.preço}</h2>
-          <ItemCount className={styles.card} />
         </li>
       ))}
     </>

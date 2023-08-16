@@ -1,0 +1,16 @@
+.button {
+  width: 10vw;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button a {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.button span {
+  font-size: 20px;
+}
