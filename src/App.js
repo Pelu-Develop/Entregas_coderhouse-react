@@ -5,7 +5,7 @@ import ItemDetailContainer from "./Components/ItemDetailContainer";
 function App() {
   return (
     <div className="App">
-      <NavBar quantidade="4" />
+      <NavBar />
       <ItemListContainer />
       <ItemDetailContainer />
     </div>

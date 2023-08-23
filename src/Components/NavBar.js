@@ -1,5 +1,6 @@
 import Logo from "../Imagens/logo.avif";
 import CartWidget from "./CartWidget";
+import { numero } from "./ItemCount";
 
 function Nav(props) {
   return (
@@ -21,7 +22,11 @@ function Nav(props) {
           </li>
         </ul>
       </div>
-      <CartWidget quantidade={props.quantidade} />
+      <numero.Consumer>
+        {(numero) => {
+          return <CartWidget quantidade={numero} />;
+        }}
+      </numero.Consumer>
     </nav>
   );
 }
